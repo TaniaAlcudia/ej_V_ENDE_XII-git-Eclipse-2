@@ -25,5 +25,10 @@ public class CalculadoraVer
 		return num1*num2;
 	}
 	
+	public int divide()
+	{
+		return num1/num2;
+	}
+	
 	
 }
