@@ -2,7 +2,7 @@
 public class CalculadoraVer 
 {
 
-	int num1, num2;
+	private int num1, num2;
 
 	public CalculadoraVer(int num1, int num2) 
 	{
@@ -10,18 +10,10 @@ public class CalculadoraVer
 		this.num2 = num2;
 	}
 	
-	public static int suma(int num1, int num2)
+	public int suma()
 	{
-		int result=num1+num2;
-		return result;
+		return num1+num2;
 	}
-	
-	public static int resta(int num1, int num2)
-	{
-		int result=num1-num2;
-		return result;
-	}
-	
 	
 	
 }
