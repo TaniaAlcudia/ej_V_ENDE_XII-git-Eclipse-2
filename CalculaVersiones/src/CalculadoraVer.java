@@ -10,9 +10,10 @@ public class CalculadoraVer
 		this.num2 = num2;
 	}
 	
-	public static void suma(int num1, int num2)
+	public static int suma(int num1, int num2)
 	{
 		int result=num1+num2;
+		return result;
 	}
 	
 	
